@@ -1,0 +1,29 @@
+.left {
+	justify-content: left;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 0px;
+}
+.flex {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.span_div {
+	padding: 0 10px;
+	background: #ffb64f;
+}
+
+.a_div{
+	text-decoration: none;
+	color:black;
+}
+.left{
+	text-align: left;
+}
+@media screen and (max-width: 1400px) {
+	.flex {
+		display: flex;
+		flex-direction: column;
+	}
+}
